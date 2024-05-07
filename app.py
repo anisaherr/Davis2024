@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Muat data
-file_path = "C:\\Users\\anisa\\Downloads\\netflix_titles.csv"
+file_path = "netflix_titles.csv"
 data = pd.read_csv(file_path, encoding='latin-1')
 
 # Filter data untuk lima tahun terakhir
