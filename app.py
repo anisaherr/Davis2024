@@ -14,10 +14,10 @@ tahun_sekarang = pd.Timestamp.now().year
 data_limpa_tahun_terakhir = data[data['release_year'] >= tahun_sekarang - 5]
 
 # Judul utama untuk dashboard
-st.title("Dashboard Judul Netflix")
+st.title("Dashboard Netflix")
 
 # Bagian visualisasi data
-st.header("Visualisasi Data")
+st.header("Raw Data")
 
 # Tampilkan data mentah jika diinginkan
 if st.checkbox("Tampilkan Data Mentah"):
