@@ -2,17 +2,6 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import mysql.connector
-
-connection = mysql.connector.connect(
-  host='anisaherr.my.id',
-  user='pvtvdyee_anisaherr',
-  password='XPszK-^uJ!u?',
-  database='pvtvdyee_aw',
-)
-
-print('connected')
-
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Muat data
